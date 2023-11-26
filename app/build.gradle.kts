@@ -73,6 +73,7 @@ dependencies {
     testImplementation(libs.roborazzi.compose)
     testImplementation(libs.roborazzi.rule)
     testImplementation(libs.espresso.core)
+    testImplementation(libs.classgraph)
 
     testImplementation(libs.ui.test.junit4)
 

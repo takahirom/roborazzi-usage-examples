@@ -10,6 +10,7 @@ lifecycle-runtime-ktx = "2.6.1"
 activity-compose = "1.8.1"
 compose-bom = "2023.03.00"
 roborazzi = "1.8.0-alpha-5"
+classgraph = "4.8.165"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -30,6 +31,7 @@ robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "
 roborazzi = { group = "io.github.takahirom.roborazzi", name = "roborazzi", version.ref = "roborazzi" }
 roborazzi-compose = { group = "io.github.takahirom.roborazzi", name = "roborazzi-compose", version.ref = "roborazzi" }
 roborazzi-rule = { group = "io.github.takahirom.roborazzi", name = "roborazzi-junit-rule", version.ref = "roborazzi" }
+classgraph = { group = "io.github.classgraph", name = "classgraph", version.ref = "classgraph" }
 
 [plugins]
 com-android-application = { id = "com.android.application", version.ref = "agp" }
