@@ -19,7 +19,7 @@ import org.robolectric.annotation.GraphicsMode
 class FirstRobolectricEspressoTest {
     @Test
     fun test() {
-        val activityScenario = launch(MainActivity::class.java)
+        val activityScenario = launch(ArticleActivity::class.java)
 
         onView(withId(R.id.content))
             .check(matches(ViewMatchers.isDisplayed()))
@@ -27,7 +27,7 @@ class FirstRobolectricEspressoTest {
 
     @Test
     fun roborazziTest() {
-        val activityScenario = launch(MainActivity::class.java)
+        val activityScenario = launch(ArticleActivity::class.java)
 
         onView(withId(R.id.content))
             .captureRoboImage()

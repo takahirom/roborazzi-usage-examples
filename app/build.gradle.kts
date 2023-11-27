@@ -3,6 +3,8 @@ plugins {
     alias(libs.plugins.com.android.application)
     alias(libs.plugins.org.jetbrains.kotlin.android)
     alias(libs.plugins.roborazzi)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
 }
 
 android {
@@ -42,7 +44,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
+        kotlinCompilerExtensionVersion = "1.5.4"
     }
     packaging {
         resources {
@@ -67,6 +69,10 @@ dependencies {
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
 
+    implementation(libs.hilt.android)
+    ksp(libs.dagger.compiler)
+    ksp(libs.hilt.compiler)
+
     testImplementation(libs.junit)
     testImplementation(libs.robolectric)
     testImplementation(libs.roborazzi)
@@ -75,6 +81,9 @@ dependencies {
     testImplementation(libs.espresso.core)
 
     testImplementation(libs.ui.test.junit4)
+    kspTest(libs.dagger.compiler)
+    kspTest(libs.hilt.compiler)
+    testImplementation(libs.hilt.android.testing)
 
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
