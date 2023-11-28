@@ -54,6 +54,10 @@ android {
     testOptions {
         unitTests {
             isIncludeAndroidResources = true
+            all {
+                // To run test coverage on Android Studio
+                it.jvmArgs("-noverify")
+            }
         }
     }
 }
