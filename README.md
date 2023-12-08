@@ -1,10 +1,10 @@
-## Robolectric setup and add Robolectric test
+## Robolectric setup and add a Robolectric test
 https://github.com/takahirom/roborazzi-usage-examples/compare/b697...5c12
 
-## Add Roborazzi
+## Add Roborazzi and a test
 https://github.com/takahirom/roborazzi-usage-examples/commit/3a02
 
-## Add Roborazzi Preview Component Screenshot test
+## Add Roborazzi Preview Component Screenshot tests
 https://github.com/takahirom/roborazzi-usage-examples/pull/1/files
 
 ## Introduce Dagger Hilt
