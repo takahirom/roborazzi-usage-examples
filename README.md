@@ -11,4 +11,4 @@ https://github.com/takahirom/roborazzi-usage-examples/pull/1/files
 https://github.com/takahirom/roborazzi-usage-examples/pull/2/files
 
 ## Add Roborazzi Screen-based screenshot tests
-https://github.com/takahirom/roborazzi-usage-examples/pull/4
+https://github.com/takahirom/roborazzi-usage-examples/pull/4/files
