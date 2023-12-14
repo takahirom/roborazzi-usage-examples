@@ -20,7 +20,7 @@ class FirstRobolectricComposeTest {
     @Test
     fun test() {
         composeRule.setContent {
-            Greeting(name = "Robolectric")
+            Article(name = "Robolectric")
         }
 
         composeRule
@@ -31,7 +31,7 @@ class FirstRobolectricComposeTest {
     @Test
     fun roborazziTest() {
         composeRule.setContent {
-            Greeting(name = "Roborazzi")
+            Article(name = "Roborazzi")
         }
 
         composeRule
